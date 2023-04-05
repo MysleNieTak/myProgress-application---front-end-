@@ -1,0 +1,22 @@
+.nav-logo {
+  height: 20px;
+
+}
+
+.site-footer{
+  align-items: center;
+  background-color: var(--light-green);
+  text-align: center;
+  font-size: smaller;
+
+
+}
+
+.py-2 {
+  text-decoration-color: white;
+  font-size: xx-small !important;
+  color: white;
+}
+
+
+

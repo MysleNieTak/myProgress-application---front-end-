@@ -1,0 +1,27 @@
+
+.nav {
+  background-color: var(--tea-green);
+}
+
+.mat-card-content {
+  background-color: var(--tea-green);
+  color: white;
+  text-align: center;
+}
+
+.textt {
+  color: var(--blue-green);
+  text-align: center;
+}
+
+.table {
+  background-color: var(--bs-white);
+  color: var(--blue-green);
+}
+
+.ng-container {
+  background-color: #38a3a5;
+}
+
+
+

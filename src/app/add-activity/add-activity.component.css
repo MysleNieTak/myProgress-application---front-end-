@@ -1,0 +1,20 @@
+mat-card {
+  padding-left: 40px;
+
+}
+
+mat-form-field {
+  background-color: whitesmoke;
+  text-decoration-line: none;
+
+}
+
+mat-label {
+  background-color: transparent;
+  color: var(--blue-green);
+}
+
+.buttons-add-activity {
+  display: flex;
+
+}

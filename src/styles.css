@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --dark-blue1: #22577A;
+  --dark-blue2: #2d7d90;
+  --mid-blue3: #38a3a5;
+  --light-blue: #48b89f;
+  --blue-green: #57cc99;
+  --blue-green2: #6cdd99;
+  --light-green: #80ed99;
+  --lighter-green: #a4f3b3;
+  --lighter1-green: #b6f6c0;
+  --tea-green: #c7f9cc;
+
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+mat-card {
+  background-color: whitesmoke !important;
+  color: var(--blue-green2) !important;
+}
+
+button {
+  background-color: transparent !important;
+  color: grey !important;
+  outline-color: var(--tea-green) !important;
+  outline-style: none !important;
+  border-inline: transparent !important;
+  border-bottom-color: transparent !important;
+  border-top-color: transparent !important;
+}
+
+

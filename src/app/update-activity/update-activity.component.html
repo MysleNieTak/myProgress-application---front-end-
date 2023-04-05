@@ -1,0 +1,47 @@
+<mat-card>
+  <mat-card-title>Edit activity</mat-card-title>
+  <mat-card-content>
+
+  </mat-card-content>
+  <mat-form-field appearance="fill">
+    <mat-label>Name</mat-label>
+    <input matInput type="text" placeholder="Evening swim " [(ngModel)]="request.titleDTO">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Distance [m]</mat-label>
+    <input matInput type="number" placeholder="Distance [m]" [(ngModel)]="request.distanceInMetresDTO">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Time [min]</mat-label>
+    <input matInput type="number" placeholder="Time [min]" [(ngModel)]="request.timeInMinutesDTO">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Type of activity</mat-label>
+    <input matInput type="text" placeholder="Swim" [(ngModel)]="request.activityTypeDTO">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>How are you feeling</mat-label>
+    <input matInput type="text" placeholder="" [(ngModel)]="request.howDoYouFeelDTO">
+  </mat-form-field>
+
+  <div class="buttons-add-activity">
+    <button mat-icon-button
+            matTooltip="Send"
+            color="accent"
+            aria-label="Send create sport-activity request"
+            (click)="update()">
+      <mat-icon>send</mat-icon>
+    </button>
+    <button mat-icon-button
+            matTooltip="Clear"
+            color="accent"
+            aria-label="clear sport activity request"
+            (click)="reset()">
+      <mat-icon>clear</mat-icon>
+    </button>
+  </div>
+</mat-card>
